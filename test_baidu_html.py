@@ -43,7 +43,7 @@ if __name__ == '__main__':
     suit.addTest(YouTest('test_err'))
     suit.addTest(YouTest('test_fail'))
 
-    report = "./selenium_resulthaha.html"
+    report = "selenium_resulthaha.html"
 
     with(open(report, 'wb')) as fp:
         runner = HTMLTestRunner(stream=fp, title='自动化报告', description='windows')

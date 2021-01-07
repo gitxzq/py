@@ -13,15 +13,20 @@
 # jsonobj = json.loads(text)
 # print(jsonobj)
 
-import hashlib
+# import hashlib
 
-a='100.0000'
-b='28975E'
+# a='10000.0000'
+# b='98022E'
 
-str=a+b
+# str=a+b
+
+# m=hashlib.sha1(str.encode('utf-8'))
+
+# print('sha1=%s'%m.hexdigest().upper())
 
 
-m=hashlib.sha1(str.encode('utf-8'))
-
-
-print('sha1=%s'%m.hexdigest().upper())
+from itertools import permutations
+L=list(permutations('12345'))
+for i in L:
+    for j in i:
+        print('-'.join(i))
