@@ -1,0 +1,17 @@
+#test
+POST http://192.168.0.200:911/api/v1/Trade/TradeDetail
+Content-Type: application/json
+
+{
+    "Client":"2",
+    "VersionCode":"1",
+    "Sign":"fc6da93a1579cc0afe4e5ff898d9958b",
+    "Timestamp":1607589386584,
+    "ChannelCode":"ITC",
+    "Imei":"66fb2285-6502-331a-87ee-4176def41780",
+    "Locat":"113.276551:23.212165",
+	"Token":"4cba1de0cbd64fa1a99f0a0c4f09a142",
+	"LanguageId":1,
+	"TradeId":66
+
+}
